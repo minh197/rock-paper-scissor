@@ -1,38 +1,48 @@
-.App {
+.red {
+  background-color: red;
+}
+
+.white {
+  background-color: white;
+}
+
+.blue {
+  background-color: blue;
+}
+.winner{
+  border: 5px solid green;
+  color: green;
+
+}
+.loser{
+  border: 5px solid red;
+  color:red;
+}
+.ChoiceCard {
+  margin: 10px;
+  width: 350px;
+  height: 450px;
+  
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  flex: 1;
   display: flex;
+  margin: 100px;
+  font-size: 1.5em;
+  padding: 0 40px;
+  font-weight: 100;
+  text-align: center;
+  border-radius: 25px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
+  background-color: white;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  flex: 1;
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #e9ebee;
 }
