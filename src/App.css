@@ -18,6 +18,10 @@
   border: 5px solid red;
   color:red;
 }
+.tie{
+  border: 5px solid gray;
+  color: gray;
+}
 .ChoiceCard {
   margin: 10px;
   width: 350px;
@@ -45,4 +49,9 @@
   min-height: 100vh;
   text-align: center;
   background-color: #e9ebee;
+}
+.photo {
+  height: 200px;
+  width: 200px; 
+  margin-left: 1.5em;
 }
